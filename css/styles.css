@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,91 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  margin: auto;
+  height: 100vh;
+  max-width: 800px;
+  width: 100%;
+}
+
+.card-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  height: 300px;
+  width: 225px;
+  cursor: pointer;
+}
+.card + .card {
+  margin-left: 30px;
+}
+.card .card__front,
+.card .card__back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  box-shadow: 1px 2px 4px #333;
+  height: 300px;
+  width: 225px;
+  transition: transform .5s;
+  backface-visibility: hidden;
+}
+.card:not(.card--flipped) .card__back {
+  transform: rotateY(180deg);
+}
+.card.card--flipped .card__front {
+  transform: rotateY(180deg);
+}
+.card p,
+.card svg {
+  width: 90%;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  margin: 30px;
+}
+
+h2 {
+  margin: 30px;
+}
+
+p,
+.displayable-style {
+  margin: 20px 30px;
+}
+
+.displayable-style {
+  display: block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #FFF;
+  font-family: monospace;
 }
 
 .containers {
