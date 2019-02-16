@@ -46,7 +46,7 @@ body {
   margin-left: 30px;
 }
 
-/*.card .card__front,
+.card .card__front,
 .card .card__back {
   display: flex;
   align-items: center;
@@ -64,7 +64,8 @@ body {
   transition: transform .5s;
   backface-visibility: hidden;
 }
-.card:not(.card--flipped) .card__back {
+
+/*.card:not(.card--flipped) .card__back {
   transform: rotateY(180deg);
 }
 .card.card--flipped .card__front {
