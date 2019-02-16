@@ -96,7 +96,7 @@ p,
   margin: 20px 30px;
 }
 
-/*.displayable-style {
+.displayable-style {
   display: block;
   padding: 10px 20px;
   background-color: #333;
@@ -104,7 +104,7 @@ p,
   font-family: monospace;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
