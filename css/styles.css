@@ -65,10 +65,11 @@ body {
   backface-visibility: hidden;
 }
 
-/*.card:not(.card--flipped) .card__back {
+.card:not(.card--flipped) .card__back {
   transform: rotateY(180deg);
 }
-.card.card--flipped .card__front {
+
+/*.card.card--flipped .card__front {
   transform: rotateY(180deg);
 }
 .card p,
