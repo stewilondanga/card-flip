@@ -91,12 +91,12 @@ h2 {
   margin: 30px;
 }
 
-/*p,
+p,
 .displayable-style {
   margin: 20px 30px;
 }
 
-.displayable-style {
+/*.displayable-style {
   display: block;
   padding: 10px 20px;
   background-color: #333;
