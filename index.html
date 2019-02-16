@@ -10,62 +10,63 @@
 <body>
 
   <div class="my_social">
-      <a href="https://www.linkedin.com/in/stewart-ilondanga-336b2743/" class="social">
-          <img src="https://i.imgsafe.org/85/857cb1a42e.png" alt="linkedin"></img>
-        </a>
-      <a href="https://stewilondanga.github.io/" class="social">
-          <img src="https://i.imgsafe.org/8d/8d745a5c82.png" alt="github"></img>
-        </a>
-      <a href="https://twitter.com/stew_ilondanga" class="social">
-          <img src="https://i.imgsafe.org/43/431dd07874.png" alt="twitter"></img>
-        </a>
-    </div>
+    <a href="https://www.linkedin.com/in/stewart-ilondanga-336b2743/" class="social">
+      <img src="https://i.imgsafe.org/85/857cb1a42e.png" alt="linkedin"></img>
+    </a>
+    <a href="https://stewilondanga.github.io/" class="social">
+      <img src="https://i.imgsafe.org/8d/8d745a5c82.png" alt="github"></img>
+    </a>
+    <a href="https://twitter.com/stew_ilondanga" class="social">
+      <img src="https://i.imgsafe.org/43/431dd07874.png" alt="twitter"></img>
+    </a>
+  </div>
 
-    <h1>Teach CSS - Card Flip</h1>
-    <p>Ever wonder how to create a card flip in CSS? Wonder no longer. In this example, I'll show how to achieve it with some CSS, and just the tiniest bit of JavaScript (which only toggles a CSS class!)</p>
-    <p>Note, not all browsers support this trick, so be carefull!</p>
-    <h2>Example</h2>
-    <div class="card-list">
-      <div class="card" onclick="flipCard(this)">
-        <div class="card__back">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula enim quis lorem semper, non vulputate tortor auctor. In hac habitasse platea dictumst. Donec ac lorem ante.</p>
-        </div>
-        <div class="card__front">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.507 13.941c-1.512 1.195-3.174 1.931-5.506 1.931-2.334 0-3.996-.736-5.508-1.931l-.493.493c1.127 1.72 3.2 3.566 6.001 3.566 2.8 0 4.872-1.846 5.999-3.566l-.493-.493zm-9.007-5.941c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5zm7 0c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5z"></path>
-          </svg>
-        </div>
+  <h1>Teach CSS - Card Flip</h1>
+  <p>Ever wonder how to create a card flip in CSS? Wonder no longer. In this example, I'll show how to achieve it with some CSS, and just the tiniest bit of JavaScript (which only toggles a CSS class!)</p>
+  <p>Note, not all browsers support this trick, so be carefull!</p>
+  <h2>Example</h2>
+  <div class="card-list">
+    <div class="card" onclick="flipCard(this)">
+      <div class="card__back">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula enim quis lorem semper, non vulputate tortor auctor. In hac habitasse platea dictumst. Donec ac lorem ante.</p>
       </div>
-      <div class="card" onclick="flipCard(this)">
-        <div class="card__back">
-          <p>Vestibulum elementum quam quis sem scelerisque, nec posuere leo sollicitudin. Quisque sed quam id ligula semper pellentesque cursus eu lectus. Sed congue orci quis nisi pulvinar, eu varius risus lacinia.</p>
-        </div>
-        <div class="card__front">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.507 13.941c-1.512 1.195-3.174 1.931-5.506 1.931-2.334 0-3.996-.736-5.508-1.931l-.493.493c1.127 1.72 3.2 3.566 6.001 3.566 2.8 0 4.872-1.846 5.999-3.566l-.493-.493zm-9.007-5.941c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5zm7 0c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5z"></path>
-          </svg>
-        </div>
-      </div>
-      <div class="card" onclick="flipCard(this)">
-        <div class="card__back">
-          <p>Donec sit amet mi rhoncus, tincidunt nulla vitae, pellentesque lectus.</p>
-        </div>
-        <div class="card__front">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.507 13.941c-1.512 1.195-3.174 1.931-5.506 1.931-2.334 0-3.996-.736-5.508-1.931l-.493.493c1.127 1.72 3.2 3.566 6.001 3.566 2.8 0 4.872-1.846 5.999-3.566l-.493-.493zm-9.007-5.941c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5zm7 0c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5z"></path>
-          </svg>
-        </div>
+      <div class="card__front">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.507 13.941c-1.512 1.195-3.174 1.931-5.506 1.931-2.334 0-3.996-.736-5.508-1.931l-.493.493c1.127 1.72 3.2 3.566 6.001 3.566 2.8 0 4.872-1.846 5.999-3.566l-.493-.493zm-9.007-5.941c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5zm7 0c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5z"></path>
+        </svg>
       </div>
     </div>
-    <h2>Walkthrough</h2>
-    <p>First we want our card to have a front and back side, so here's the HTML we'll want to build it.</p>
-    <pre class="displayable-style">&#60;div class="card"&#62;
+    <div class="card" onclick="flipCard(this)">
+      <div class="card__back">
+        <p>Vestibulum elementum quam quis sem scelerisque, nec posuere leo sollicitudin. Quisque sed quam id ligula semper pellentesque cursus eu lectus. Sed congue orci quis nisi pulvinar, eu varius risus lacinia.</p>
+      </div>
+      <div class="card__front">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.507 13.941c-1.512 1.195-3.174 1.931-5.506 1.931-2.334 0-3.996-.736-5.508-1.931l-.493.493c1.127 1.72 3.2 3.566 6.001 3.566 2.8 0 4.872-1.846 5.999-3.566l-.493-.493zm-9.007-5.941c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5zm7 0c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5z"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="card" onclick="flipCard(this)">
+      <div class="card__back">
+        <p>Donec sit amet mi rhoncus, tincidunt nulla vitae, pellentesque lectus.</p>
+      </div>
+      <div class="card__front">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.507 13.941c-1.512 1.195-3.174 1.931-5.506 1.931-2.334 0-3.996-.736-5.508-1.931l-.493.493c1.127 1.72 3.2 3.566 6.001 3.566 2.8 0 4.872-1.846 5.999-3.566l-.493-.493zm-9.007-5.941c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5zm7 0c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5z"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <h2>Walkthrough</h2>
+  <p>First we want our card to have a front and back side, so here's the HTML we'll want to build it.</p>
+  <pre class="displayable-style">&#60;div class="card"&#62;
       &#60;div class="card__front"&#62;...content...&#60;/div&#62;
       &#60;div class="card__back"&#62;...content...&#60;/div&#62;
     &#60;/div&#62;</pre>
-    <p>Now for the CSS part. We want both sides of the card to be the full width and height of the card, and we want them positioned on top of each other. So for both, we'll absolutely position them, and set top, left, right, and bottom to 0 (also, make sure you give your card a width and height!)</p>
-    <p>Now they are sitting on top of each other, and it's a hot mess. Content sitting on content. How do we deal with that? Two steps: we'll flip the card's back side component over, and hide the backface of it.</p>
-    <pre class="displayable-style">.card__front,
+  <p>Now for the CSS part. We want both sides of the card to be the full width and height of the card, and we want them positioned on top of each other. So for both, we'll absolutely position them, and set top, left, right, and bottom to 0 (also,
+    make sure you give your card a width and height!)</p>
+  <p>Now they are sitting on top of each other, and it's a hot mess. Content sitting on content. How do we deal with that? Two steps: we'll flip the card's back side component over, and hide the backface of it.</p>
+  <pre class="displayable-style">.card__front,
     .card__back {
       backface-visibility: hidden;
     }
@@ -73,28 +74,32 @@
     .card__back {
       transform: rotateY(180deg);
     }</pre>
-    <p>The `transform` rule will flip the card over, and that `backface-visibility` rule says that backface of the element isn't visible; i.e. when the element is flipped over and your looking at the back of the element, should you be able to see it or not? In our case, we don't want to see it.</p>
-    <p>Sweet, there's our card! But at the moment we can't flip it over. Let's add that ability. First, we add an `onclick` listener to the card, which will just toggle if the card has the class `card--flipped`. But how does the CSS need to change to accomadate it?</p>
-    <pre class="displayable-style">.card:not(.card--flipped) .card__back {
+  <p>The `transform` rule will flip the card over, and that `backface-visibility` rule says that backface of the element isn't visible; i.e. when the element is flipped over and your looking at the back of the element, should you be able to see it
+    or not? In our case, we don't want to see it.</p>
+  <p>Sweet, there's our card! But at the moment we can't flip it over. Let's add that ability. First, we add an `onclick` listener to the card, which will just toggle if the card has the class `card--flipped`. But how does the CSS need to change to
+    accomadate it?</p>
+  <pre class="displayable-style">.card:not(.card--flipped) .card__back {
       transform: rotateY(180deg);
     }
 
     .card.card--flipped .card__front {
       transform: rotateY(180deg);
     }</pre>
-    <p>That's short and easy right? Any card that's not flipped should have it's card back component flipped over (so that we see the front). Any card that IS flipped over should instead have it's front side component flipped over (so that we see the back). Then all we need to do is add a transition for the transform, and there it is! Our finished card flip!</p>
+  <p>That's short and easy right? Any card that's not flipped should have it's card back component flipped over (so that we see the front). Any card that IS flipped over should instead have it's front side component flipped over (so that we see the
+    back). Then all we need to do is add a transition for the transform, and there it is! Our finished card flip!</p>
 
   <section id="contact">
     <div class="overlay">
       <div class="containers">
 
         <h1>
-<script>
-with(new Date)c=-new Date(y=getFullYear(),m=getMonth()).getDay(x=new Date(y,++m,0).getDate(b=-1))
-h='<table class="cal"><caption> <em>Stewart ilondanga</em> &#169 '+' '+y+'/'+m+'<tr>'+'SuMoTuWeThFrSa'.replace(/(..)/g,'<th>$1')
-while((b++>5?b=0:b)|c<x)h+=(b?'':'<tr>')+'<td>'+(++c<1|c>x?'-':c);document.write(h+'</table>')
-</script>
-</h1>
+          <script>
+            with(new Date) c = -new Date(y = getFullYear(), m = getMonth()).getDay(x = new Date(y, ++m, 0).getDate(b = -1))
+            h = '<table class="cal"><caption> <em>Stewart ilondanga</em> &#169 ' + ' ' + y + '/' + m + '<tr>' + 'SuMoTuWeThFrSa'.replace(/(..)/g, '<th>$1')
+            while ((b++ > 5 ? b = 0 : b) | c < x) h += (b ? '' : '<tr>') + '<td>' + (++c < 1 | c > x ? '-' : c);
+            document.write(h + '</table>')
+          </script>
+        </h1>
 
       </div>
     </div>
