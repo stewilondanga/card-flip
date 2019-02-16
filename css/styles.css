@@ -73,12 +73,12 @@ body {
   transform: rotateY(180deg);
 }
 
-/*.card p,
+.card p,
 .card svg {
   width: 90%;
 }
 
-h1,
+/*h1,
 h2 {
   text-align: center;
 }
