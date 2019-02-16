@@ -7,6 +7,13 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+body {
+  margin: auto;
+  height: 100vh;
+  max-width: 800px;
+  width: 100%;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -31,12 +38,6 @@
 }
 
 
-body {
-  margin: auto;
-  height: 100vh;
-  max-width: 800px;
-  width: 100%;
-}
 
 .card-list {
   display: flex;
