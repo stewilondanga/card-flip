@@ -29,15 +29,13 @@ body {
   height: 1.5em;
 }
 
-/*
-
 .card-list {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.card {
+/*.card {
   position: relative;
   height: 300px;
   width: 225px;
